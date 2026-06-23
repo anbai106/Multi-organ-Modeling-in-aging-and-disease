@@ -1,0 +1,15 @@
+# Table 2. Representative omics studies for multi-organ modeling
+
+Representative studies of omics data, including plasma proteomics and metabolomics, for multi-organ modeling are presented in chronological order by publication date. 
+
+| Study | Organ/System | AI/ML Methodology | Genetics methodology | Proteomics platform |
+| --- | --- | --- | --- | --- |
+| [Oh et al. (2023)](https://doi.org/10.1038/s41586-023-06802-1) | 11 organs: adipose, artery, brain, heart, immune tissue, intestine, kidney, liver, lung, muscle, pancreas | Bagged LASSO organ-age models | NA | Plasma proteomics; SomaScan v4/v4.1 |
+| [Goeminne et al. (2025)](https://doi.org/10.1016/j.cmet.2024.10.005) | Organ/system-specific and organismal aging models | Elastic net regularization | NA | Plasma proteomics; UKBB and other cohorts; Olink Explore 3072/384 |
+| [Kivimäki et al. (2025)](https://doi.org/10.1016/j.landig.2025.01.006) | 9 organs: arteries, heart, brain, lungs, intestines, liver, pancreas, kidneys, immune system | Pretrained organ-age models | NA | Plasma proteomics; SomaScan/SomaLogic |
+| [The MULTI Consortium et al. (2025)](https://doi.org/10.1038/s41467-025-59964-z) | 5 organ/system MetBAGs: digestive, hepatic, immune, endocrine, metabolic | Lasso regression and neural network models | GWAS and post-GWAS | Plasma metabolomics; UKBB Nightingale NMR metabolites; 107 non-derived metabolites in 274,247 participants |
+| [Oh et al. (2025)](https://doi.org/10.1038/s41591-025-03798-1) | 11 organs, with emphasis on brain and immune system | LASSO organ-age predictors | NA | Plasma proteomics; Olink Explore 3072/384 |
+| [Wen (2025)](https://doi.org/10.1038/s43587-025-00928-9) | 11 multi-organ ProtBAGs integrated with 9 phenotype-based BAGs | Three AI/ML models for ProtBAG generation; age-bias correction and model generalizability assessment | GWAS and post-GWAS | Plasma proteomics; UKBB Olink plasma proteomics |
+| [Xiong et al. (2025)](https://doi.org/10.1016/j.xgen.2025.101032) | 9 organ-specific aging clocks plus 4 blood epigenetic clocks | Existing aging clocks from Wen et al. (2024) | Post-GWAS and cross-layer multi-omics integration | Multi-omics integration; proteomic and metabolomic downstream effects rather than a primary plasma clock-training platform |
+| [Wang et al. (2025)](https://doi.org/10.1038/s43587-025-01016-8) | 10 organs/systems: brain, heart, lung, immune system, artery, intestine, liver, kidney, muscle, pancreas | LightGBM with Boruta feature selection, SHAP-based interpretation/RFE; compared with LASSO, elastic net, MLP, ResNet, TabR | NA | Plasma proteomics; Olink Explore 3072, 2,916 proteins; UKB, China Kadoorie Biobank, Nurses’ Health Study |
+| [Zhu et al. (2025)](https://doi.org/10.1038/s41467-025-67223-4) | 13 organs: adipose, artery, brain, heart, immune, intestine, kidney, liver, lung, muscle, pancreas, skin, stomach | Compared elastic net, XGBoost, random forest; selected elastic net for downstream analyses | GWAS and post-GWAS | Plasma proteomics; UKB-PPP |
