@@ -1,4 +1,4 @@
-# Multi-organ Review in Aging and Disease
+# Multi-organ Modeling in Aging and Disease
 
 This repository provides continuously updatable literature tables for representative studies related to multi-organ modeling in aging and disease.
 
